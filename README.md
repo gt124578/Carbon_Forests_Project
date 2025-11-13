@@ -127,7 +127,7 @@ Implicit methods demonstrate superior stability, allowing for larger time steps 
 **1. Euler Implicit (h = 1.0):**
 The Euler Implicit solver converges smoothly to the correct equilibrium, even with a time step that would cause the explicit method to fail. This robustness is crucial for long-term simulations.
 
-![Euler Implicit](results/euler_implicite_h1.0.png)
+![Euler Implicit](results/euler_implicit_h1.0.png)
 
 **2. Trapezoidal Rule (h = 1.0):**
 The Trapezoidal Rule, being a second-order method, provides a more accurate solution than the first-order implicit Euler. While visually similar on this scale, it offers better precision for the same computational cost, making it a superior choice.
@@ -141,27 +141,27 @@ The sensitivity analysis reveals which parameters have the most significant impa
 **1. Growth Rate (`alpha`):**
 A higher growth rate leads to a faster and higher accumulation of carbon in both trees and soil. This is a primary driver of sequestration.
 
-![Sensitivity to Alpha](results/sensitivity_alpha_euler_implicite_h0.5.png)
+![Sensitivity to Alpha](results/sensitivity_alpha_euler_implicit_h0.5.png)
 
 **2. Carrying Capacity (`K`):**
 `K` directly limits the maximum biomass the forest can hold. Increasing `K` significantly raises the equilibrium levels of carbon in both reservoirs, making it a critical parameter for total storage potential.
 
-![Sensitivity to K](results/sensitivity_K_euler_implicite_h0.5.png)
+![Sensitivity to K](results/sensitivity_K_euler_implicit_h0.5.png)
 
 **3. Tree Respiration (`beta`):**
 An increase in tree respiration (`beta`) results in a substantial decrease in stored carbon, as more carbon is returned to the atmosphere. This is a major limiting factor for sequestration.
 
-![Sensitivity to Beta](results/sensitivity_beta_euler_implicite_h0.5.png)
+![Sensitivity to Beta](results/sensitivity_beta_euler_implicit_h0.5.png)
 
 **4. Litterfall Rate (`gamma`):**
 A higher `gamma` enhances the transfer of carbon from trees to soil. This leads to lower carbon storage in trees but higher storage in the soil. Its effect on the total sequestered carbon is moderate.
 
-![Sensitivity to Gamma](results/sensitivity_gamma_euler_implicite_h0.5.png)
+![Sensitivity to Gamma](results/sensitivity_gamma_euler_implicit_h0.5.png)
 
 **5. Soil Respiration (`delta`):**
 `delta` is a complex parameter that increases both the carbon flow from trees to soil and the carbon loss from soil to the atmosphere. The net effect of increasing `delta` is a significant reduction in long-term carbon storage in both compartments.
 
-![Sensitivity to Delta](results/sensitivity_delta_euler_implicite_h0.5.png)
+![Sensitivity to Delta](results/sensitivity_delta_euler_implicit_h0.5.png)
 
 ---
 
