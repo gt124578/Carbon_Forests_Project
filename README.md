@@ -67,8 +67,8 @@ This project requires Python and a few common scientific libraries.
 
 1.  Clone the repository:
     ```bash
-    git clone https://your-repo-url.git
-    cd your-repo-folder
+    git clone https://github.com/gt124578/Carbon_Forests_Project
+    cd Carbon_Forests_Project
     ```
 
 2.  Install the necessary libraries:
