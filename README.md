@@ -173,4 +173,3 @@ This project successfully demonstrates the implementation and comparison of nume
 *   **Biological Insights:** The sensitivity analysis confirms that the growth rate (`alpha`) and carrying capacity (`K`) are the most effective levers for increasing carbon sequestration. Conversely, respiration rates (`beta` and `delta`) are the primary factors limiting the system's storage capacity.
 
 This model serves as a strong foundation. Future work could involve incorporating environmental dependencies (temperature, precipitation), adding more detailed soil compartments, or modeling the age structure of the forest to create an even more realistic simulation.
-```
